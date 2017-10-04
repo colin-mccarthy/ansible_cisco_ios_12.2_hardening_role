@@ -1,2 +1,13 @@
 ---
 # vars file for ios_12.2_hardening_role
+#
+#username is for SSH username
+#password is for the enable password 
+#auth-pass is for the privledge-exec password 
+#
+
+
+creds:
+  username: pi
+  password: cisco
+  auth_pass: cisco
