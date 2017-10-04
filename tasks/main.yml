@@ -12,10 +12,6 @@
 #+ service password-encryption
 
 
-  tasks:
-  - name: OBTAIN LOGIN CREDENTIALS
-    include_vars: secrets.yaml
-
   - name: DEFINE PROVIDER
     set_fact:
       provider:
@@ -30,9 +26,6 @@
       authorize: yes
       commands:
         - show run | beg vty
-    register: before_vty
- 
-  - debug: var=before_vty.stdout_lines
  
   - name: NO SERVICE PAD
     ios_config:
@@ -98,6 +91,4 @@
       authorize: yes
       commands:
         - show run | beg vty
-    register: after_vty
  
-  - debug: var=after_vty.stdout_lines
