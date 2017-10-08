@@ -20,12 +20,7 @@
         password: "{{ creds['password'] }}"
         auth_pass: "{{ creds['auth_pass'] }}"
 
-  - name: SHOW RUN | BEG VTY
-    ios_command:
-      provider: "{{ provider }}"
-      authorize: yes
-      commands:
-        - show run | beg vty
+
  
   - name: NO SERVICE PAD
     ios_config:
@@ -85,10 +80,5 @@
       lines:
         - service password-encryption
         
-  - name: SHOW RUN | BEG VTY
-    ios_command:
-      provider: "{{ provider }}"
-      authorize: yes
-      commands:
-        - show run | beg vty
+
  
