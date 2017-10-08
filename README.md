@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Ansible Cisco ios 12.2 hardening role.
+Ansible_Cisco_ios_12.2_hardening_role
 
 
 
