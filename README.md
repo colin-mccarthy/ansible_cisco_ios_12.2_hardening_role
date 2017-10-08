@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief description of the role goes here.
+Ansible Cisco ios 12.2 hardening role.
 
 Requirements
 ------------
