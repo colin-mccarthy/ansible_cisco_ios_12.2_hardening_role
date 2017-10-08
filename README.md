@@ -13,7 +13,7 @@ Cisco devices running 12.2 or similar ios version.
 Role Variables
 --------------
 
-Take a peak in the vars/main.yml
+Take a peak in the vars/main.yml, move them somewhere else if you want.
     
 
 Dependencies
