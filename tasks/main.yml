@@ -89,7 +89,7 @@
       text: "{{ lookup('file', './vars/raw_banner.cfg') }}"
       state: present
       
-   - name: SHOW RUN | BEG BANNER
+  - name: SHOW RUN | BEG BANNER
     ios_command:
       provider: "{{ provider }}"
       authorize: yes
