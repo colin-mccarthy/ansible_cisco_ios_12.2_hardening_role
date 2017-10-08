@@ -81,7 +81,7 @@
       lines:
         - service password-encryption
 
-  - name: Configure banner from file
+  - name: CONFIGURE BANNER FROM FILE
     ios_banner:
       provider: "{{ provider }}"
       authorize: yes
