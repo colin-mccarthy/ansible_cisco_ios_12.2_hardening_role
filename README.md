@@ -15,8 +15,8 @@ Cisco devices running 12.2 or similar ios version.
 Role Variables
 --------------
 
+Take a peak in the vars/main.yml
 
-creds:
   username: <username>
   password: <enable password>
   auth_pass: <privledge-exec password>
