@@ -25,23 +25,18 @@ None
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-
-- hosts: ios
-  gather_facts: no
-  connection: local
-  roles:
-    - Ansible_Cisco_ios_12.2_hardening_role 
+https://github.com/colin-mccarthy/Ansible-Playbooks-for-Cisco-IOS/blob/master/hardening.yml
     
-    
-   
+       
 License
 -------
 
 BSD
 
+
 Author Information
 ------------------
 
 Colin McCarthy check out my website www.thenetwork.engineer
+
+
