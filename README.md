@@ -15,14 +15,6 @@ Cisco devices running 12.2 or similar ios version.
 Role Variables
 --------------
 
----
-# vars file for ios_12.2_hardening_role
-#
-#username is for SSH username
-#password is for the enable password 
-#auth-pass is for the privledge-exec password 
-#fill them out with your network credentials
-
 
 creds:
   username: <username>
@@ -44,8 +36,6 @@ Example Playbook
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
 
----
-
 - hosts: ios
   gather_facts: no
   connection: local
@@ -64,4 +54,4 @@ Author Information
 ------------------
 
 Colin McCarthy
--- Check out my website www.thenetwork.engineer
+Check out my website www.thenetwork.engineer
