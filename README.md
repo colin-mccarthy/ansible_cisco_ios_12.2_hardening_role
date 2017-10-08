@@ -44,5 +44,4 @@ BSD
 Author Information
 ------------------
 
-Colin McCarthy
-Check out my website www.thenetwork.engineer
+Colin McCarthy check out my website www.thenetwork.engineer
