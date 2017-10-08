@@ -8,7 +8,7 @@ Ansible_Cisco_ios_12.2_hardening_role
 Requirements
 ------------
 
-None other then Cisco device running 12.2 or similar ios version.
+Cisco devices running 12.2 or similar ios version.
 
 
 
