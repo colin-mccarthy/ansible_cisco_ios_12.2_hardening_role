@@ -10,7 +10,7 @@
 #+ transport input ssh
 #+ logging buffered 15000
 #+ service password-encryption
-#+ set a login banner
+
 
 
   - name: DEFINE PROVIDER
@@ -80,24 +80,8 @@
       authorize: yes
       lines:
         - service password-encryption
-
-  - name: CONFIGURE BANNER FROM FILE
-    ios_banner:
-      provider: "{{ provider }}"
-      authorize: yes
-      banner: login
-      text: "{{ lookup('file', './vars/raw_banner.cfg') }}"
-      state: present
       
-  - name: SHOW RUN | BEG BANNER
-    ios_command:
-      provider: "{{ provider }}"
-      authorize: yes
-      commands:
-        - show run | beg banner
-    register: banner
-
-  - debug: var=banner.stdout_lines     
+    
         
         
         
